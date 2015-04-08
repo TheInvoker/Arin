@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/RegularView"
+    tools:context="activity.SettingsScreen">
+    	
+    <LinearLayout
+        android:id="@+id/container"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+	    <TextView
+	        android:id="@+id/profileedit"
+	        style="@style/main_menu"
+	        android:text="@string/menu_profile"
+	        android:onClick="goToEditProfile" />
+	       
+		<View
+		    android:id="@+id/profileeditLine"
+		    style="@style/MenuLine"/>
+			
+	    <TextView
+	        android:id="@+id/clearcache"
+	        style="@style/main_menu"
+	        android:text="@string/menu_clear"
+	        android:onClick="goToClearCache" />
+        
+		<View
+		    style="@style/MenuLine"/>
+        
+        <TextView
+            android:id="@+id/help"
+ 			style="@style/main_menu"
+            android:text="@string/menu_help"
+            android:onClick="goToHelp" />
+	    
+		<View
+		    style="@style/MenuLine"/>
+        
+        <TextView
+            android:id="@+id/rate"
+ 			style="@style/main_menu"
+            android:text="@string/menu_rate"
+            android:onClick="goToRate" />
+        
+		<View
+		    style="@style/MenuLine"/>
+        
+        <TextView
+            android:id="@+id/about"
+ 			style="@style/main_menu"
+            android:text="@string/menu_about"
+            android:onClick="goToAbout" />
+	    
+    </LinearLayout>
+		
+</ScrollView> 

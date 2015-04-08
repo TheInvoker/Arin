@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/RegularView"
+    android:orientation="vertical"
+    tools:context="activity.AllThreadsScreen">
+	    
+	<ScrollView 
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1">
+	    	
+	    <LinearLayout
+	        android:id="@+id/threadcontainer"
+	        android:orientation="vertical"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	    </LinearLayout>
+			
+	</ScrollView> 
+	
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        style="@style/paging_control" >
+	    
+		<ImageView
+		    android:id="@+id/prev"
+		    style="@style/navButton"
+		    android:contentDescription="@string/image_cd"
+		    android:onClick="loadPrev"
+		    android:src="@drawable/ic_action_previous_item"/>
+		
+	    <TextView
+	        android:id="@+id/page"
+	        style="@style/pageNum"
+		    android:text="@string/default_page_num"/>
+	    
+		<ImageView
+		    android:id="@+id/next"
+		    style="@style/navButton"
+		    android:contentDescription="@string/image_cd"
+		    android:onClick="loadNext"
+		    android:src="@drawable/ic_action_next_item"/>
+        
+    </LinearLayout>
+	    
+</LinearLayout>

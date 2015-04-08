@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.arin.LoginScreen" >
+
+    <item
+    android:id="@+id/action_offline_login"
+    android:orderInCategory="100"
+    android:showAsAction="never"
+    android:title="@string/action_offline_login"/>
+    
+    <item
+    android:id="@+id/action_register"
+    android:orderInCategory="100"
+    android:showAsAction="never"
+    android:title="@string/action_register"/>
+    
+    <item
+    android:id="@+id/action_forgotpassword"
+    android:orderInCategory="100"
+    android:showAsAction="never"
+    android:title="@string/action_forgot_password"/>
+    
+</menu>

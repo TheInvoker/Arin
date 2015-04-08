@@ -1,0 +1,97 @@
+# view AndroidManifest.xml #generated:104
+-keep class activity.AboutScreen { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class activity.AllThreadsScreen { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class activity.GalleryScreen { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class activity.LocationScreen { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class activity.LoginScreen { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class activity.MapScreen { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class activity.MenuScreen { <init>(...); }
+
+# view res/layout/activity_menu_screen.xml #generated:49
+-keep class activity.MenuScreen$AdFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class activity.NavigationScreen { <init>(...); }
+
+# view AndroidManifest.xml #generated:114
+-keep class activity.SettingsScreen { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class activity.SpeciesScreen { <init>(...); }
+
+# view AndroidManifest.xml #generated:99
+-keep class activity.ThreadScreen { <init>(...); }
+
+# view AndroidManifest.xml #generated:120
+-keep class com.google.android.gms.ads.AdActivity { <init>(...); }
+
+# view res/layout/fragment_ad.xml #generated:8
+-keep class com.google.android.gms.ads.AdView { <init>(...); }
+
+# view res/layout/activity_map_screen.xml #generated:9
+-keep class com.google.android.gms.maps.SupportMapFragment { <init>(...); }
+
+# view res/layout/activity_viewpager_example.xml #generated:7
+-keep class com.ortiz.touch.ExtendedViewPager { <init>(...); }
+
+# view res/layout/activity_gallery_screen.xml #generated:16
+# view res/layout/activity_mirroring_example.xml #generated:19
+# view res/layout/activity_mirroring_example.xml #generated:7
+# view res/layout/activity_single_touchimageview.xml #generated:6
+# view res/layout/activity_switch_image_example.xml #generated:6
+# view res/layout/activity_switch_scaletype_example.xml #generated:6
+-keep class com.ortiz.touch.TouchImageView { <init>(...); }
+
+# onClick res/layout/activity_gallery_screen.xml #generated:29
+-keepclassmembers class * { *** commentClick(...); }
+
+# onClick res/layout/activity_settings_screen.xml #generated:52
+-keepclassmembers class * { *** goToAbout(...); }
+
+# onClick res/layout/activity_settings_screen.xml #generated:25
+-keepclassmembers class * { *** goToClearCache(...); }
+
+# onClick res/layout/activity_settings_screen.xml #generated:15
+-keepclassmembers class * { *** goToEditProfile(...); }
+
+# onClick res/layout/activity_settings_screen.xml #generated:34
+-keepclassmembers class * { *** goToHelp(...); }
+
+# onClick res/layout/activity_menu_screen.xml #generated:20
+-keepclassmembers class * { *** goToNextScreen(...); }
+
+# onClick res/layout/activity_settings_screen.xml #generated:43
+-keepclassmembers class * { *** goToRate(...); }
+
+# onClick res/layout/activity_menu_screen.xml #generated:39
+-keepclassmembers class * { *** goToSettings(...); }
+
+# onClick res/layout/activity_menu_screen.xml #generated:30
+-keepclassmembers class * { *** goToThreads(...); }
+
+# onClick res/layout/activity_all_threads_screen.xml #generated:42
+# onClick res/layout/activity_species_screen.xml #generated:68
+-keepclassmembers class * { *** loadNext(...); }
+
+# onClick res/layout/activity_all_threads_screen.xml #generated:30
+# onClick res/layout/activity_species_screen.xml #generated:56
+-keepclassmembers class * { *** loadPrev(...); }
+
+# onClick res/layout/activity_login_screen.xml #generated:56
+-keepclassmembers class * { *** loginButtonClick(...); }
+
+# onClick res/layout/activity_login_screen.xml #generated:62
+-keepclassmembers class * { *** openMenu(...); }
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/RegularView"
+    android:orientation="vertical"
+    tools:context="activity.ThreadScreen">
+
+	<RelativeLayout
+	    android:id="@+id/image_container"
+	    android:orientation="vertical"
+	    android:layout_weight="1"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp" 
+	    android:layout_marginBottom="10dp">
+
+		<ImageView
+		    android:id="@+id/imageView"
+		    android:contentDescription="@string/image_cd"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"/>
+
+		<ImageButton
+		    android:id="@+id/prev"
+		    android:contentDescription="@string/image_cd"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_centerInParent="true"
+		    android:src="@drawable/ic_action_previous_item" />
+
+		<ImageButton
+		    android:id="@+id/next"
+		    android:contentDescription="@string/image_cd"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_centerInParent="true"
+		    android:src="@drawable/ic_action_next_item" />
+	    
+	</RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" >
+		
+		<ScrollView 
+		    android:id="@+id/threadscroll"
+		    android:layout_weight="1"
+		    android:layout_width="match_parent"
+	    	android:layout_height="0dp" >
+		    	
+		    <LinearLayout
+		        android:id="@+id/commentcontainer"
+		        android:orientation="vertical"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" >
+		    </LinearLayout>
+	
+		</ScrollView> 
+		
+	    <EditText
+	        android:id="@+id/comment"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/hint_comment"
+	        android:maxLength="255"
+	        android:ems="10" >
+
+	    </EditText>
+	    
+	</LinearLayout>
+
+</LinearLayout>

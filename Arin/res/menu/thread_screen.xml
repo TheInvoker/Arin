@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.arin.ThreadScreen" >
+
+    <item
+    android:id="@+id/action_upload_image"
+    android:icon="@drawable/ic_action_new_picture"
+    android:title="@string/action_upload_image"
+    android:showAsAction="ifRoom" />
+    
+    <item
+    android:id="@+id/action_accept"
+    android:icon="@drawable/ic_action_accept"
+    android:title="@string/action_accept"
+    android:showAsAction="ifRoom" />
+    
+    <item
+    android:id="@+id/action_refresh"
+    android:icon="@drawable/ic_action_refresh"
+    android:title="@string/action_refresh"
+    android:showAsAction="ifRoom" />
+    
+</menu>

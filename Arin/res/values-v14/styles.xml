@@ -1,0 +1,21 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+        Theme.Holo.Light.DarkActionBar
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo">
+        <!-- API 14 theme customizations can go here. -->
+        <item name="android:actionBarWidgetTheme">@style/YourActionBarWidget</item>
+    </style>
+
+    
+    <!-- This helps the PopupMenu stick with Light theme while the ActionBar is in Dark theme -->
+	<style name="YourActionBarWidget">
+	    <item name="android:popupMenuStyle">@android:style/Widget.Holo.PopupMenu</item>
+	    <item name="android:dropDownListViewStyle">@android:style/Widget.Holo.ListView.DropDown</item>
+	</style>
+    
+</resources>
