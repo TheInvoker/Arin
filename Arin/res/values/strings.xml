@@ -107,8 +107,8 @@
     
     <!-- Network -->
     <string name="my_email">rydsouza82@gmail.com</string>
-    <string name="dev_link">http://192.168.1.110/arin/site</string>
-    <string name="dev_host">http://192.168.1.110/arin/scripts/config/sqlhandler.php</string>
+    <string name="dev_link">http://192.168.1.102:81/Arin/Server/site</string>
+    <string name="dev_host">http://192.168.1.102:81/Arin/Server/scripts/config/sqlhandler.php</string>
     <string name="web_link">http://arin.esy.es/arin/site</string>
     <string name="web_host">http://arin.esy.es/arin/scripts/config/sqlhandler.php</string>
     <string name="arin_link">@string/dev_link</string>
@@ -117,7 +117,7 @@
     <!-- Ad -->
     <string name="dev_unit_id">ca-app-pub-3940256099942544/6300978111</string>
     <string name="web_unit_id">ca-app-pub-9879286629528309/2972003479</string>
-    <string name="banner_ad_unit_id">@string/web_unit_id</string>
+    <string name="banner_ad_unit_id">@string/dev_unit_id</string>
     
     <!-- Dialogs Titles -->
     <string name="add">Add</string>

@@ -1,0 +1,96 @@
+html {
+    position: relative;
+    min-height: 100%;
+	font-family: Geneva,Tahoma,Verdana,sans-serif;
+}
+
+
+
+nav {
+	height: 100px;
+	background-color:#00479f;
+}
+nav > table {
+	height:100%;
+	padding-right:10px;
+}
+nav > table > tbody > tr > td {
+	color:white;
+	vertical-align:middle;
+}
+
+.title {
+	color:#d6671b;
+	font-size:30px;
+	font-weight:bold;
+}
+.title_sub {
+	color:#fac006;
+}
+
+
+
+
+
+body {
+    margin: 0 0 64px; /* bottom = footer height */
+}
+.maincontent {
+	padding:10px;
+}
+.mytable > tbody > tr > td {
+	border: 1px solid gray;
+	padding:5px;
+}
+.mytable > tbody > tr:first-child {
+	font-weight:bold;
+	background-color:#c6efff;
+}
+
+#main_actions {
+	width:100%;
+}
+#main_actions > tbody > tr > td {
+	width:50%;
+	height:100px;
+	vertical-align:middle;
+	text-align:center;
+	font-size:25px;
+}
+#main_1 {
+	background-color:#abe8ff;
+	cursor: pointer; 
+	cursor: hand;
+}
+#main_1:hover {
+	background-color:#6dd7ff;
+}
+#main_2 {
+	background-color:#ffabab;
+	cursor: pointer; 
+	cursor: hand;
+}
+#main_2:hover {
+	background-color:#ff8282;
+}
+
+
+
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 64px;
+    width: 100%;
+	
+	background-color:#00479f;
+}
+footer > table {
+	height:100%;
+	padding-right:10px;
+}
+footer > table > tbody > tr > td {
+	color:white;
+	vertical-align:middle;
+}
