@@ -16,19 +16,19 @@ public final class R {
 		public static final int nature_5 = 0x7f020054;
 	}
 	public static final class id {
-		public static final int bottomImage = 0x7f090034;
-		public static final int current_zoom = 0x7f090041;
-		public static final int img = 0x7f09003d;
-		public static final int mirror_touchimageview_button = 0x7f09002a;
-		public static final int scroll_position = 0x7f09003f;
-		public static final int single_touchimageview_button = 0x7f090028;
-		public static final int switch_image_button = 0x7f09002b;
-		public static final int switch_scaletype_button = 0x7f09002c;
-		public static final int topImage = 0x7f090033;
-		public static final int top_text_line = 0x7f09003e;
-		public static final int view_pager = 0x7f09004a;
-		public static final int viewpager_example_button = 0x7f090029;
-		public static final int zoomed_rect = 0x7f090040;
+		public static final int bottomImage = 0x7f090035;
+		public static final int current_zoom = 0x7f090042;
+		public static final int img = 0x7f09003e;
+		public static final int mirror_touchimageview_button = 0x7f09002b;
+		public static final int scroll_position = 0x7f090040;
+		public static final int single_touchimageview_button = 0x7f090029;
+		public static final int switch_image_button = 0x7f09002c;
+		public static final int switch_scaletype_button = 0x7f09002d;
+		public static final int topImage = 0x7f090034;
+		public static final int top_text_line = 0x7f09003f;
+		public static final int view_pager = 0x7f09004b;
+		public static final int viewpager_example_button = 0x7f09002a;
+		public static final int zoomed_rect = 0x7f090041;
 	}
 	public static final class layout {
 		public static final int activity_main = 0x7f030005;

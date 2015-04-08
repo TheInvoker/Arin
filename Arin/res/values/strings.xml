@@ -111,8 +111,8 @@
     <string name="dev_host">http://192.168.1.110/arin/scripts/config/sqlhandler.php</string>
     <string name="web_link">http://arin.esy.es/arin/site</string>
     <string name="web_host">http://arin.esy.es/arin/scripts/config/sqlhandler.php</string>
-    <string name="arin_link">@string/web_link</string>
-    <string name="arin_host">@string/web_host</string>
+    <string name="arin_link">@string/dev_link</string>
+    <string name="arin_host">@string/dev_host</string>
 
     <!-- Ad -->
     <string name="dev_unit_id">ca-app-pub-3940256099942544/6300978111</string>
